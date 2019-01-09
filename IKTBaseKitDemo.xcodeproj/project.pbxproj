@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E6321B21E5C51C00EECB0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6321A21E5C51C00EECB0E /* AppDelegate.m */; };
+		55E6321E21E5C51C00EECB0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6321D21E5C51C00EECB0E /* ViewController.m */; };
+		55E6322121E5C51C00EECB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6321F21E5C51C00EECB0E /* Main.storyboard */; };
+		55E6322321E5C51D00EECB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E6322221E5C51D00EECB0E /* Assets.xcassets */; };
+		55E6322621E5C51D00EECB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6322421E5C51D00EECB0E /* LaunchScreen.storyboard */; };
+		55E6322921E5C51D00EECB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6322821E5C51D00EECB0E /* main.m */; };
+		55E6323321E5C51D00EECB0E /* IKTBaseKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6323221E5C51D00EECB0E /* IKTBaseKitDemoTests.m */; };
+		55E6323E21E5C51D00EECB0E /* IKTBaseKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6323D21E5C51D00EECB0E /* IKTBaseKitDemoUITests.m */; };
+		55E6325921E5C86E00EECB0E /* IKTHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6324C21E5C86E00EECB0E /* IKTHandler.m */; };
+		55E6325A21E5C86E00EECB0E /* IKTScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6325021E5C86E00EECB0E /* IKTScale.m */; };
+		55E6325B21E5C86E00EECB0E /* UIImage+IKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6325121E5C86E00EECB0E /* UIImage+IKT.m */; };
+		55E6325C21E5C86E00EECB0E /* NSObject+IKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6325221E5C86E00EECB0E /* NSObject+IKT.m */; };
+		55E6325D21E5C86E00EECB0E /* UIView+IKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6325621E5C86E00EECB0E /* UIView+IKT.m */; };
+		55E6325E21E5C86E00EECB0E /* NSString+IKT.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6325721E5C86E00EECB0E /* NSString+IKT.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E6322F21E5C51D00EECB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E6320E21E5C51C00EECB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E6321521E5C51C00EECB0E;
+			remoteInfo = IKTBaseKitDemo;
+		};
+		55E6323A21E5C51D00EECB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E6320E21E5C51C00EECB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E6321521E5C51C00EECB0E;
+			remoteInfo = IKTBaseKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E6321621E5C51C00EECB0E /* IKTBaseKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKTBaseKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6321921E5C51C00EECB0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E6321A21E5C51C00EECB0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E6321C21E5C51C00EECB0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55E6321D21E5C51C00EECB0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55E6322021E5C51C00EECB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E6322221E5C51D00EECB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E6322521E5C51D00EECB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E6322721E5C51D00EECB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6322821E5C51D00EECB0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E6322E21E5C51D00EECB0E /* IKTBaseKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKTBaseKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6323221E5C51D00EECB0E /* IKTBaseKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKTBaseKitDemoTests.m; sourceTree = "<group>"; };
+		55E6323421E5C51D00EECB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6323921E5C51D00EECB0E /* IKTBaseKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKTBaseKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6323D21E5C51D00EECB0E /* IKTBaseKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKTBaseKitDemoUITests.m; sourceTree = "<group>"; };
+		55E6323F21E5C51D00EECB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6324C21E5C86E00EECB0E /* IKTHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKTHandler.m; sourceTree = "<group>"; };
+		55E6324D21E5C86E00EECB0E /* NSObject+IKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKT.h"; sourceTree = "<group>"; };
+		55E6324E21E5C86E00EECB0E /* NSString+IKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IKT.h"; sourceTree = "<group>"; };
+		55E6324F21E5C86E00EECB0E /* UIView+IKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IKT.h"; sourceTree = "<group>"; };
+		55E6325021E5C86E00EECB0E /* IKTScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKTScale.m; sourceTree = "<group>"; };
+		55E6325121E5C86E00EECB0E /* UIImage+IKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IKT.m"; sourceTree = "<group>"; };
+		55E6325221E5C86E00EECB0E /* NSObject+IKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKT.m"; sourceTree = "<group>"; };
+		55E6325321E5C86E00EECB0E /* IKTHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKTHandler.h; sourceTree = "<group>"; };
+		55E6325421E5C86E00EECB0E /* IKTBaseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKTBaseKit.h; sourceTree = "<group>"; };
+		55E6325521E5C86E00EECB0E /* IKTScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKTScale.h; sourceTree = "<group>"; };
+		55E6325621E5C86E00EECB0E /* UIView+IKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IKT.m"; sourceTree = "<group>"; };
+		55E6325721E5C86E00EECB0E /* NSString+IKT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IKT.m"; sourceTree = "<group>"; };
+		55E6325821E5C86E00EECB0E /* UIImage+IKT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IKT.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E6321321E5C51C00EECB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6322B21E5C51D00EECB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6323621E5C51D00EECB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E6320D21E5C51C00EECB0E = {
+			isa = PBXGroup;
+			children = (
+				55E6324B21E5C86E00EECB0E /* IKTBaseKit */,
+				55E6321821E5C51C00EECB0E /* IKTBaseKitDemo */,
+				55E6323121E5C51D00EECB0E /* IKTBaseKitDemoTests */,
+				55E6323C21E5C51D00EECB0E /* IKTBaseKitDemoUITests */,
+				55E6321721E5C51C00EECB0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E6321721E5C51C00EECB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E6321621E5C51C00EECB0E /* IKTBaseKitDemo.app */,
+				55E6322E21E5C51D00EECB0E /* IKTBaseKitDemoTests.xctest */,
+				55E6323921E5C51D00EECB0E /* IKTBaseKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E6321821E5C51C00EECB0E /* IKTBaseKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				55E6321921E5C51C00EECB0E /* AppDelegate.h */,
+				55E6321A21E5C51C00EECB0E /* AppDelegate.m */,
+				55E6321C21E5C51C00EECB0E /* ViewController.h */,
+				55E6321D21E5C51C00EECB0E /* ViewController.m */,
+				55E6321F21E5C51C00EECB0E /* Main.storyboard */,
+				55E6322221E5C51D00EECB0E /* Assets.xcassets */,
+				55E6322421E5C51D00EECB0E /* LaunchScreen.storyboard */,
+				55E6322721E5C51D00EECB0E /* Info.plist */,
+				55E6322821E5C51D00EECB0E /* main.m */,
+			);
+			path = IKTBaseKitDemo;
+			sourceTree = "<group>";
+		};
+		55E6323121E5C51D00EECB0E /* IKTBaseKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E6323221E5C51D00EECB0E /* IKTBaseKitDemoTests.m */,
+				55E6323421E5C51D00EECB0E /* Info.plist */,
+			);
+			path = IKTBaseKitDemoTests;
+			sourceTree = "<group>";
+		};
+		55E6323C21E5C51D00EECB0E /* IKTBaseKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E6323D21E5C51D00EECB0E /* IKTBaseKitDemoUITests.m */,
+				55E6323F21E5C51D00EECB0E /* Info.plist */,
+			);
+			path = IKTBaseKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		55E6324B21E5C86E00EECB0E /* IKTBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				55E6325321E5C86E00EECB0E /* IKTHandler.h */,
+				55E6324C21E5C86E00EECB0E /* IKTHandler.m */,
+				55E6324D21E5C86E00EECB0E /* NSObject+IKT.h */,
+				55E6325221E5C86E00EECB0E /* NSObject+IKT.m */,
+				55E6324E21E5C86E00EECB0E /* NSString+IKT.h */,
+				55E6325721E5C86E00EECB0E /* NSString+IKT.m */,
+				55E6324F21E5C86E00EECB0E /* UIView+IKT.h */,
+				55E6325621E5C86E00EECB0E /* UIView+IKT.m */,
+				55E6325521E5C86E00EECB0E /* IKTScale.h */,
+				55E6325021E5C86E00EECB0E /* IKTScale.m */,
+				55E6325821E5C86E00EECB0E /* UIImage+IKT.h */,
+				55E6325121E5C86E00EECB0E /* UIImage+IKT.m */,
+				55E6325421E5C86E00EECB0E /* IKTBaseKit.h */,
+			);
+			path = IKTBaseKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E6321521E5C51C00EECB0E /* IKTBaseKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6324221E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemo" */;
+			buildPhases = (
+				55E6321221E5C51C00EECB0E /* Sources */,
+				55E6321321E5C51C00EECB0E /* Frameworks */,
+				55E6321421E5C51C00EECB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKTBaseKitDemo;
+			productName = IKTBaseKitDemo;
+			productReference = 55E6321621E5C51C00EECB0E /* IKTBaseKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E6322D21E5C51D00EECB0E /* IKTBaseKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6324521E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemoTests" */;
+			buildPhases = (
+				55E6322A21E5C51D00EECB0E /* Sources */,
+				55E6322B21E5C51D00EECB0E /* Frameworks */,
+				55E6322C21E5C51D00EECB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E6323021E5C51D00EECB0E /* PBXTargetDependency */,
+			);
+			name = IKTBaseKitDemoTests;
+			productName = IKTBaseKitDemoTests;
+			productReference = 55E6322E21E5C51D00EECB0E /* IKTBaseKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E6323821E5C51D00EECB0E /* IKTBaseKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6324821E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemoUITests" */;
+			buildPhases = (
+				55E6323521E5C51D00EECB0E /* Sources */,
+				55E6323621E5C51D00EECB0E /* Frameworks */,
+				55E6323721E5C51D00EECB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E6323B21E5C51D00EECB0E /* PBXTargetDependency */,
+			);
+			name = IKTBaseKitDemoUITests;
+			productName = IKTBaseKitDemoUITests;
+			productReference = 55E6323921E5C51D00EECB0E /* IKTBaseKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E6320E21E5C51C00EECB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ETScorpoin;
+				TargetAttributes = {
+					55E6321521E5C51C00EECB0E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					55E6322D21E5C51D00EECB0E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55E6321521E5C51C00EECB0E;
+					};
+					55E6323821E5C51D00EECB0E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55E6321521E5C51C00EECB0E;
+					};
+				};
+			};
+			buildConfigurationList = 55E6321121E5C51C00EECB0E /* Build configuration list for PBXProject "IKTBaseKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E6320D21E5C51C00EECB0E;
+			productRefGroup = 55E6321721E5C51C00EECB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E6321521E5C51C00EECB0E /* IKTBaseKitDemo */,
+				55E6322D21E5C51D00EECB0E /* IKTBaseKitDemoTests */,
+				55E6323821E5C51D00EECB0E /* IKTBaseKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E6321421E5C51C00EECB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6322621E5C51D00EECB0E /* LaunchScreen.storyboard in Resources */,
+				55E6322321E5C51D00EECB0E /* Assets.xcassets in Resources */,
+				55E6322121E5C51C00EECB0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6322C21E5C51D00EECB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6323721E5C51D00EECB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E6321221E5C51C00EECB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6325B21E5C86E00EECB0E /* UIImage+IKT.m in Sources */,
+				55E6325E21E5C86E00EECB0E /* NSString+IKT.m in Sources */,
+				55E6321E21E5C51C00EECB0E /* ViewController.m in Sources */,
+				55E6325921E5C86E00EECB0E /* IKTHandler.m in Sources */,
+				55E6325D21E5C86E00EECB0E /* UIView+IKT.m in Sources */,
+				55E6325C21E5C86E00EECB0E /* NSObject+IKT.m in Sources */,
+				55E6325A21E5C86E00EECB0E /* IKTScale.m in Sources */,
+				55E6322921E5C51D00EECB0E /* main.m in Sources */,
+				55E6321B21E5C51C00EECB0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6322A21E5C51D00EECB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6323321E5C51D00EECB0E /* IKTBaseKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6323521E5C51D00EECB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6323E21E5C51D00EECB0E /* IKTBaseKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E6323021E5C51D00EECB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E6321521E5C51C00EECB0E /* IKTBaseKitDemo */;
+			targetProxy = 55E6322F21E5C51D00EECB0E /* PBXContainerItemProxy */;
+		};
+		55E6323B21E5C51D00EECB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E6321521E5C51C00EECB0E /* IKTBaseKitDemo */;
+			targetProxy = 55E6323A21E5C51D00EECB0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E6321F21E5C51C00EECB0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E6322021E5C51C00EECB0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E6322421E5C51D00EECB0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E6322521E5C51D00EECB0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E6324021E5C51D00EECB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E6324121E5C51D00EECB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E6324321E5C51D00EECB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E6324421E5C51D00EECB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E6324621E5C51D00EECB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKTBaseKitDemo.app/IKTBaseKitDemo";
+			};
+			name = Debug;
+		};
+		55E6324721E5C51D00EECB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKTBaseKitDemo.app/IKTBaseKitDemo";
+			};
+			name = Release;
+		};
+		55E6324921E5C51D00EECB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IKTBaseKitDemo;
+			};
+			name = Debug;
+		};
+		55E6324A21E5C51D00EECB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IKTBaseKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IKT.ETScorpoin.IKTBaseKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IKTBaseKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E6321121E5C51C00EECB0E /* Build configuration list for PBXProject "IKTBaseKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6324021E5C51D00EECB0E /* Debug */,
+				55E6324121E5C51D00EECB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6324221E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6324321E5C51D00EECB0E /* Debug */,
+				55E6324421E5C51D00EECB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6324521E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6324621E5C51D00EECB0E /* Debug */,
+				55E6324721E5C51D00EECB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6324821E5C51D00EECB0E /* Build configuration list for PBXNativeTarget "IKTBaseKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6324921E5C51D00EECB0E /* Debug */,
+				55E6324A21E5C51D00EECB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E6320E21E5C51C00EECB0E /* Project object */;
+}
