@@ -149,18 +149,29 @@ float iOSH(float value){
  */
 UIFont * IKTFont(float size){
     //苹方字体 9.0以后才有
-    return [UIFont fontWithName:@"PingFangSC-Regular" size:size];
-    //return [UIFont fontWithName:@"STHeitiSC-Light" size:size];
+    if (@available(iOS 9.0, *)) {
+        return [UIFont fontWithName:@"PingFangSC-Regular" size:size];
+    }else{
+        return [UIFont fontWithName:@"STHeitiSC-Light" size:size];
+    }
 }
 
 UIFont * IKTFontS(float size){
     //苹方字体 9.0以后才有 缩放后后大小
-    return [UIFont fontWithName:@"PingFangSC-Regular" size:iOSW(size)];
+    if (@available(iOS 9.0, *)) {
+        return [UIFont fontWithName:@"PingFangSC-Regular" size:iOSW(size)];
+    }else{
+        return [UIFont fontWithName:@"STHeitiSC-Light" size:iOSW(size)];
+    }
 }
 
 UIFont * IKTFontB(float size){
     //    PingFangSC-Medium//粗体.SFUIText
-    return [UIFont fontWithName:@"PingFangSC-Medium" size:iOSW(size)];
+    if (@available(iOS 9.0, *)) {
+        return [UIFont fontWithName:@"PingFangSC-Medium" size:iOSW(size)];
+    }else{
+        return [UIFont boldSystemFontOfSize:iOSW(size)];
+    }
 }
 
 UIFont *IKTFontName(NSString *name, float size){

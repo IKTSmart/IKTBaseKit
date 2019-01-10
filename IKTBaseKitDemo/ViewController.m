@@ -37,6 +37,11 @@
     [self.view addVerticalLine];
     
     [self.view addHorizontalLine];
+    
+    UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(iOSW(50), iOSW(50), iOSW(80), iOSW(30))];
+    lab.text = @"缩放字体15";
+    [self.view addSubview:lab];
+    lab.font = IKTFontS(15);
 }
 
 
